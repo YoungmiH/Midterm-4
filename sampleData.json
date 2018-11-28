@@ -1,0 +1,16 @@
+{
+  "Category":[
+    {"id":"","label":"Books","pattern":"","type":"string"},
+    {"id":"","label":"Home","pattern":"","type":"string"},
+    {"id":"","label":"Clothing, Shoes & Accessories","pattern":"","type":"string"},
+    {"id":"","label":"Music","pattern":"","type":"string"},
+    {"id":"","label":"Electronics","pattern":"","type":"string"}
+  ],
+  "Number of Product":[
+    {"id":"","label":"346466","pattern":"","type":"number"},
+    {"id":"","label":"199325","pattern":"","type":"number"},
+    {"id":"","label":"190940","pattern":"","type":"number"},
+    {"id":"","label":"109729","pattern":"","type":"number"},
+    {"id":"","label":"109705","pattern":"","type":"number"}
+  ]
+}
