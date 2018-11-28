@@ -117,11 +117,15 @@ var chart = new google.visualization.PieChart(document.getElementById('piechart2
 //UA
 
 function drawChart3() {
-  var data3 = $.ajax({
-    url: "getData.php",
-              dataType: "json",
-              async: false
-              }).responseText;
+
+  var data3 = google.visualization.arrayToDataTable([
+    ['Category', 'Number of Product'],
+    ['Books',  346466],
+    ['Home',     199325],
+    ['Clothing, Shoes & Accessories',      190940],
+    ['Music', 109729],
+    ['Electronics',   109705]
+  ]);
 
 
 
